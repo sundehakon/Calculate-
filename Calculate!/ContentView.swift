@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("Welcome to your calculator, adding new changes to test git repository")
+            Button("Click here") {
+                print("Welcome!")
+            }
         }
         .padding()
     }
